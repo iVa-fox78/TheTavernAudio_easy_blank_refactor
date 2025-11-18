@@ -83,7 +83,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{ebb7d04b-0a6e-4259-925f-a2b1f6e4e17d}">
 		<property name="volume">
-			<value>-7.5</value>
+			<value>-17.5</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{c239b48e-502e-4523-ba26-c46e6a281ae2}</destination>
@@ -151,7 +151,7 @@
 			<value>-80</value>
 		</property>
 		<property name="attackTime">
-			<value>1500</value>
+			<value>3600</value>
 		</property>
 		<property name="releaseTime">
 			<value>1500</value>
