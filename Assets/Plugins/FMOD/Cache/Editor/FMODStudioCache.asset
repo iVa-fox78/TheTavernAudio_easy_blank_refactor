@@ -70,10 +70,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638990901269972419
+  lastModified: 638996903854398974
   FileSizes:
   - Name: Desktop
-    Value: 1522
+    Value: 1558
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -98,7 +98,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 2038117555204709214}
   MinDistance: 1
   MaxDistance: 20
   Length: 30000
@@ -197,10 +198,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638990901269957338
+  lastModified: 638996903854384109
   FileSizes:
   - Name: Desktop
-    Value: 6926848
+    Value: 6927232
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -260,7 +261,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 638990901269972419
+  cacheTime: 638996903854398974
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
@@ -298,6 +299,30 @@ MonoBehaviour:
   ID:
     data1: 3546862341
     data2: 238705728
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &2038117555204709214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/sfx_fire_loop_event_random/Fire
+  m_EditorClassIdentifier: 
+  Name: Fire
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3052203741
+    data2: 733368582
   Type: 0
   IsGlobal: 0
   Labels: []
