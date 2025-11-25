@@ -113,6 +113,9 @@
 		<property name="length">
 			<value>0.29999999999999999</value>
 		</property>
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{51d77f31-b8c6-41ee-bae7-24fbbebc0b68}</destination>
 			<destination>{8f4bb100-9b94-48f6-9db7-91cbeb6cf5b5}</destination>
@@ -152,6 +155,9 @@
 		</property>
 		<property name="length">
 			<value>0.29999999999999999</value>
+		</property>
+		<property name="volume">
+			<value>-10</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{652aaef8-4372-48e2-82a5-af05f591ecba}</destination>

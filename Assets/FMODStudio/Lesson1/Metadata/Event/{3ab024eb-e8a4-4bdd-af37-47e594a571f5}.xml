@@ -102,6 +102,9 @@
 		<property name="length">
 			<value>0.45000000000000001</value>
 		</property>
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{c6e74a40-7aac-45b7-8fb4-2e9ab39b905e}</destination>
 			<destination>{4d80f709-e8c3-45e4-aaf2-a6398b938962}</destination>
@@ -133,6 +136,9 @@
 	<object class="SingleSound" id="{31e71f0c-3e39-4897-b896-80c952df38ae}">
 		<property name="length">
 			<value>0.45000000000000001</value>
+		</property>
+		<property name="volume">
+			<value>-4</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{c01d023f-3df2-449d-b9c7-565d725531d2}</destination>

@@ -70,7 +70,7 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638996903854398974
+  lastModified: 638996951914223105
   FileSizes:
   - Name: Desktop
     Value: 1558
@@ -198,7 +198,7 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638996903854384109
+  lastModified: 638996951914203066
   FileSizes:
   - Name: Desktop
     Value: 6927232
@@ -261,7 +261,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 638996903854398974
+  cacheTime: 638996951914223105
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0

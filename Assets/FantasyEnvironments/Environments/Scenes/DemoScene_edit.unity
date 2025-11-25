@@ -2348,6 +2348,7 @@ GameObject:
   - component: {fileID: 613997993}
   - component: {fileID: 613997990}
   - component: {fileID: 613997989}
+  - component: {fileID: 613997994}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -2375,7 +2376,7 @@ CapsuleCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0
-  m_Height: 2.21
+  m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0, y: -0.34, z: 0}
 --- !u!23 &613997986
@@ -2440,7 +2441,7 @@ Transform:
   m_GameObject: {fileID: 613997984}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400.45, y: 8.22, z: 308.22}
+  m_LocalPosition: {x: 400.45, y: 7.999, z: 308.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2519,6 +2520,41 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &613997994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613997984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5662db7a78ed10944a62b27bb1056215, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  footstepsEvent:
+    Guid:
+      Data1: -2085747961
+      Data2: 1237731998
+      Data3: 304180670
+      Data4: 1469158245
+    Path: event:/Footsteps/sfx_footsteps_surface
+  jumpEvent:
+    Guid:
+      Data1: 984622315
+      Data2: 1272834212
+      Data3: -448317521
+      Data4: -177101420
+    Path: event:/Jump/sfx_jump_surface
+  landEvent:
+    Guid:
+      Data1: -1044438510
+      Data2: 1341578542
+      Data3: 2092449457
+      Data4: 1056638798
+    Path: event:/Jump/sfx_land_surface
+  isGrounded: 1
+  isJumping: 0
 --- !u!1 &688602384
 GameObject:
   m_ObjectHideFlags: 0
