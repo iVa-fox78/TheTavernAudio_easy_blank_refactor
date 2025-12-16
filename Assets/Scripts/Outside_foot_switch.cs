@@ -44,7 +44,7 @@ public class Outside_foot_switch : MonoBehaviour
                 ToggleSnapshot(true);
             }
             // Wyłącza snapshot, jeśli gracz jest wewnątrz, a snapshot jest aktywny.
-            else if ((tag == "Inside_stone" || tag == "Inside_wood") && snapshotActivated)
+            else if ((tag == "Stone" || tag == "Wood") && snapshotActivated)
             {
                 ToggleSnapshot(false);
             }

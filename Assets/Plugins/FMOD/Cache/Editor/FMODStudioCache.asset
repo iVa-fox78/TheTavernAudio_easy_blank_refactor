@@ -70,10 +70,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638996951914223105
+  lastModified: 639015075524962340
   FileSizes:
   - Name: Desktop
-    Value: 1558
+    Value: 1606
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -156,7 +156,34 @@ MonoBehaviour:
   - {fileID: 4424793760793974722}
   MinDistance: 1
   MaxDistance: 20
-  Length: 1193
+  Length: 1320
+--- !u!114 &-2511315885848658007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: -561845589
+    Data2: 1251650213
+    Data3: -882631023
+    Data4: -1007525913
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-2287885516180027796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,10 +225,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638996951914203066
+  lastModified: 639015075524952339
   FileSizes:
   - Name: Desktop
-    Value: 6927232
+    Value: 6928160
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -255,13 +282,14 @@ MonoBehaviour:
   - {fileID: 6202746078743021630}
   - {fileID: -8721135886335984359}
   - {fileID: 8909057552220939720}
+  - {fileID: -2511315885848658007}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2100474390687094267}
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 638996951914223105
+  cacheTime: 639015075524962340
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
@@ -279,6 +307,8 @@ MonoBehaviour:
     index: 6
   - key: event:/Jump/sfx_jump_surface
     index: 7
+  - key: snapshot:/Outside
+    index: 8
 --- !u!114 &1150132391764324259
 MonoBehaviour:
   m_ObjectHideFlags: 0
