@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 5.6
   MaxDistance: 25
   Length: 75494
+--- !u!114 &-7566713666725454754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Inside_Room
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Inside_Room
+  Guid:
+    Data1: 1432689806
+    Data2: 1297702105
+    Data3: -645063752
+    Data4: -1129786428
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-5774982355003843217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -70,10 +97,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015075524962340
+  lastModified: 639015099914418375
   FileSizes:
   - Name: Desktop
-    Value: 1606
+    Value: 1660
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -118,7 +145,7 @@ MonoBehaviour:
   Name: Surface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 3073730420
@@ -128,6 +155,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &-2915282512372955627
 MonoBehaviour:
@@ -199,7 +227,7 @@ MonoBehaviour:
   Name: Surface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 3073730420
@@ -209,6 +237,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &-2100474390687094267
 MonoBehaviour:
@@ -225,10 +254,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015075524952339
+  lastModified: 639015099914408359
   FileSizes:
   - Name: Desktop
-    Value: 6928160
+    Value: 6953504
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -283,13 +312,14 @@ MonoBehaviour:
   - {fileID: -8721135886335984359}
   - {fileID: 8909057552220939720}
   - {fileID: -2511315885848658007}
+  - {fileID: -7566713666725454754}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2100474390687094267}
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 639015075524962340
+  cacheTime: 639015099914418375
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
@@ -309,6 +339,8 @@ MonoBehaviour:
     index: 7
   - key: snapshot:/Outside
     index: 8
+  - key: snapshot:/Inside_Room
+    index: 9
 --- !u!114 &1150132391764324259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -453,7 +485,7 @@ MonoBehaviour:
   Name: Surface
   StudioPath: 
   Min: 0
-  Max: 1
+  Max: 2
   Default: 0
   ID:
     data1: 3073730420
@@ -463,6 +495,7 @@ MonoBehaviour:
   Labels:
   - Wood
   - Stone
+  - Bed
   Exists: 1
 --- !u!114 &8909057552220939720
 MonoBehaviour:
