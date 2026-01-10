@@ -97,10 +97,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639015099914418375
+  lastModified: 639036485052310095
   FileSizes:
   - Name: Desktop
-    Value: 1660
+    Value: 1908
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -254,10 +254,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639015099914408359
+  lastModified: 639036485052289960
   FileSizes:
   - Name: Desktop
-    Value: 6953504
+    Value: 6954272
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -319,7 +319,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 639015099914418375
+  cacheTime: 639036485052310095
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
