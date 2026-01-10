@@ -9,7 +9,7 @@ public class VCAControl : MonoBehaviour
     [SerializeField] private float vcaVolume;
     void Start()
     {
-        vca = FMODUnity.RuntimeManager.GetVCA("vca/Music");
+        vca = FMODUnity.RuntimeManager.GetVCA("vca:/Music");
         vca.getVolume(out vcaVolume);
     }
     public void SetVolume(float volume) 
