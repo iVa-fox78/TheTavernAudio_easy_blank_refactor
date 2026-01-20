@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{56b6a149-0748-47a9-ad1a-65d4944425c0}">
+		<property name="assetPath">
+			<value>Knife/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{115d941f-79e9-4347-82fa-c3118ccd0d35}</destination>
+		</relationship>
+	</object>
+</objects>

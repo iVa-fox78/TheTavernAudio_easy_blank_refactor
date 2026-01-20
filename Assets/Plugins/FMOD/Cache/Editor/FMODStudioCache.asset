@@ -97,10 +97,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639036485052310095
+  lastModified: 639045267537523216
   FileSizes:
   - Name: Desktop
-    Value: 1908
+    Value: 2064
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -185,6 +185,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1320
+--- !u!114 &-2675252569546725145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fire/sfx_tavern_fire_on
+  m_EditorClassIdentifier: 
+  Path: event:/Fire/sfx_tavern_fire_on
+  Guid:
+    Data1: -1592032685
+    Data2: 1213944402
+    Data3: 215245193
+    Data4: 520377998
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2511315885848658007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,10 +281,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639036485052289960
+  lastModified: 639045267537513172
   FileSizes:
   - Name: Desktop
-    Value: 6954272
+    Value: 7110048
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -313,13 +340,15 @@ MonoBehaviour:
   - {fileID: 8909057552220939720}
   - {fileID: -2511315885848658007}
   - {fileID: -7566713666725454754}
+  - {fileID: 6597340390897414135}
+  - {fileID: -2675252569546725145}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2100474390687094267}
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 639036485052310095
+  cacheTime: 639045267537523216
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
@@ -341,6 +370,10 @@ MonoBehaviour:
     index: 8
   - key: snapshot:/Inside_Room
     index: 9
+  - key: event:/Fire/sfx_tavern_fire_off
+    index: 10
+  - key: event:/Fire/sfx_tavern_fire_on
+    index: 11
 --- !u!114 &1150132391764324259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +475,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 51000
+--- !u!114 &6597340390897414135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Fire/sfx_tavern_fire_off
+  m_EditorClassIdentifier: 
+  Path: event:/Fire/sfx_tavern_fire_off
+  Guid:
+    Data1: -103010000
+    Data2: 1119230306
+    Data3: 1758732445
+    Data4: -1742997470
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &7111626233074097365
 MonoBehaviour:
   m_ObjectHideFlags: 0

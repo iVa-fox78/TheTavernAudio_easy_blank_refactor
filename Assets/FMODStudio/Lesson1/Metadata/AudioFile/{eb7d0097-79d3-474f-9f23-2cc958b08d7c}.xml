@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{eb7d0097-79d3-474f-9f23-2cc958b08d7c}">
+		<property name="assetPath">
+			<value>Amb/Fire/on/Fireplace_On_1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>2.6538541666666666</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{115d941f-79e9-4347-82fa-c3118ccd0d35}</destination>
+		</relationship>
+	</object>
+</objects>
