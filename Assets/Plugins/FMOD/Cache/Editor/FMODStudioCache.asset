@@ -97,10 +97,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639045267537523216
+  lastModified: 639045337720601568
   FileSizes:
   - Name: Desktop
-    Value: 2064
+    Value: 2238
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -239,6 +239,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 0
+--- !u!114 &-2503913645391191569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Knife/sfx_tavern_knife
+  m_EditorClassIdentifier: 
+  Path: event:/Knife/sfx_tavern_knife
+  Guid:
+    Data1: -242089909
+    Data2: 1275887070
+    Data3: 1679311284
+    Data4: 1321104297
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-2287885516180027796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -281,10 +308,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639045267537513172
+  lastModified: 639045337720573335
   FileSizes:
   - Name: Desktop
-    Value: 7110048
+    Value: 7277824
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -342,13 +369,16 @@ MonoBehaviour:
   - {fileID: -7566713666725454754}
   - {fileID: 6597340390897414135}
   - {fileID: -2675252569546725145}
+  - {fileID: -2503913645391191569}
+  - {fileID: 7339799996752095605}
+  - {fileID: 1899221649600521058}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2100474390687094267}
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 639045267537523216
+  cacheTime: 639045337720601568
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
@@ -374,6 +404,12 @@ MonoBehaviour:
     index: 10
   - key: event:/Fire/sfx_tavern_fire_on
     index: 11
+  - key: event:/Knife/sfx_tavern_knife
+    index: 12
+  - key: event:/Bottle/sfx_tavern_bottle
+    index: 13
+  - key: event:/Barrel/sfx_tavern_barrel
+    index: 14
 --- !u!114 &1150132391764324259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -398,6 +434,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &1899221649600521058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Barrel/sfx_tavern_barrel
+  m_EditorClassIdentifier: 
+  Path: event:/Barrel/sfx_tavern_barrel
+  Guid:
+    Data1: 421733805
+    Data2: 1329308495
+    Data3: -1583669851
+    Data4: 288930394
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &2038117555204709214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -530,6 +593,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 649
+--- !u!114 &7339799996752095605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bottle/sfx_tavern_bottle
+  m_EditorClassIdentifier: 
+  Path: event:/Bottle/sfx_tavern_bottle
+  Guid:
+    Data1: -520193381
+    Data2: 1308223710
+    Data3: -33879126
+    Data4: -226588668
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 0
 --- !u!114 &7553673077596972809
 MonoBehaviour:
   m_ObjectHideFlags: 0

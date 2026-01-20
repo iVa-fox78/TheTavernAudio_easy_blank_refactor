@@ -1,9 +1,13 @@
-using UnityEngine;
+﻿using UnityEngine;
 using FMODUnity;
 
 public class InteractSound : MonoBehaviour, IInteractable
 {
+
+    [Header("FMOD Settings")]
     [SerializeField] private EventReference interactSound;
+    [Header("Attach")]
+    [SerializeField] private bool attachToTransform = true;
     public void Interact()
     {
         PlaySound();
@@ -11,7 +15,15 @@ public class InteractSound : MonoBehaviour, IInteractable
 
     private void PlaySound()
     {
-        RuntimeManager.PlayOneShot(interactSound);
+        if (attachToTransform)
+        {
+            RuntimeManager.PlayOneShotAttached(interactSound, gameObject);
+        }
+        else
+        {
+            RuntimeManager.PlayOneShot(interactSound);
+        }
+
     }
-    
+
 }

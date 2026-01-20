@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{3fa9f216-31ad-4504-ae34-995f7323cb27}">
+		<property name="assetPath">
+			<value>Barrel/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{115d941f-79e9-4347-82fa-c3118ccd0d35}</destination>
+		</relationship>
+	</object>
+</objects>

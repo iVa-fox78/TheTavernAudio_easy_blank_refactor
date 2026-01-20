@@ -5,7 +5,7 @@
 			<value>sfx_tavern_knife</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d9719a39-ae46-4125-b475-1c1b1a78e3bd}</destination>
@@ -95,8 +95,8 @@
 	<object class="MixerBusPanner" id="{142946d0-c7c9-410e-a2dd-1eb5ca182fee}" />
 	<object class="MixerBusEffectChain" id="{1827bcfb-493a-4347-9616-80bcbb856a53}">
 		<relationship name="effects">
+			<destination>{34094f99-c80d-4eb3-870d-d92fb50f09a6}</destination>
 			<destination>{d6519e39-e9b4-462a-a6f5-d4e72fe04975}</destination>
-			<destination>{29eeabda-3fc6-461a-86c1-93c76d1912ff}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{31c9632e-7376-4acd-8124-9337765dc76f}" />
@@ -113,8 +113,15 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{c229ae36-b12f-49f8-b653-e55a57486434}" />
+	<object class="CompressorEffect" id="{34094f99-c80d-4eb3-870d-d92fb50f09a6}">
+		<property name="ratio">
+			<value>2.10000014</value>
+		</property>
+		<property name="attackTime">
+			<value>0.349999994</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{d6519e39-e9b4-462a-a6f5-d4e72fe04975}" />
-	<object class="SpatialiserEffect" id="{29eeabda-3fc6-461a-86c1-93c76d1912ff}" />
 	<object class="RandomizerModulator" id="{f1e13d43-4b66-4740-b30d-625c7ac266c6}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>

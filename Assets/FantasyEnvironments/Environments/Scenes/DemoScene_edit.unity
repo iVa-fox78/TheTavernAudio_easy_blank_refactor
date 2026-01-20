@@ -384,6 +384,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dbf81bbd6e742a47ab052aa598c527b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &129748986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 129748989}
+  - component: {fileID: 129748988}
+  - component: {fileID: 129748987}
+  m_Layer: 0
+  m_Name: InteractBottle (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &129748987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129748986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -520193381
+      Data2: 1308223710
+      Data3: -33879126
+      Data4: -226588668
+    Path: event:/Bottle/sfx_tavern_bottle
+  attachToTransform: 1
+--- !u!65 &129748988
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129748986}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.420044, y: 0.33095264, z: 0.4385376}
+  m_Center: {x: 0.1541748, y: -0.33452368, z: 0.2807312}
+--- !u!4 &129748989
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129748986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 402.326, y: 8.77, z: 320.669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &131062900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1078,80 @@ Transform:
   - {fileID: 1782957205}
   - {fileID: 496232898}
   - {fileID: 1110397080}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &234251132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234251135}
+  - component: {fileID: 234251134}
+  - component: {fileID: 234251133}
+  m_Layer: 0
+  m_Name: InteractBarrel (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &234251133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234251132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: 421733805
+      Data2: 1329308495
+      Data3: -1583669851
+      Data4: 288930394
+    Path: event:/Barrel/sfx_tavern_barrel
+  attachToTransform: 1
+--- !u!65 &234251134
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234251132}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.6591362, y: 0.7288467, z: 0.5838986}
+  m_Center: {x: 0.17043193, y: 0.07298081, z: -0.20805094}
+--- !u!4 &234251135
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234251132}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 386.21, y: 10.799, z: 320.22}
+  m_LocalScale: {x: 1.5892, y: 1.5892, z: 1.5892}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &237163387
@@ -1854,6 +2002,80 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 437025906}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &440103130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 440103133}
+  - component: {fileID: 440103132}
+  - component: {fileID: 440103131}
+  m_Layer: 0
+  m_Name: InteractBarrel (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &440103131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440103130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: 421733805
+      Data2: 1329308495
+      Data3: -1583669851
+      Data4: 288930394
+    Path: event:/Barrel/sfx_tavern_barrel
+  attachToTransform: 1
+--- !u!65 &440103132
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440103130}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &440103133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440103130}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 393.468, y: 7.896156, z: 320.22}
+  m_LocalScale: {x: 1.5892, y: 1.5892, z: 1.5892}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &485849460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3758,6 +3980,80 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dbf81bbd6e742a47ab052aa598c527b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1040809621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1040809624}
+  - component: {fileID: 1040809623}
+  - component: {fileID: 1040809622}
+  m_Layer: 0
+  m_Name: InteractBottle (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1040809622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040809621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -520193381
+      Data2: 1308223710
+      Data3: -33879126
+      Data4: -226588668
+    Path: event:/Bottle/sfx_tavern_bottle
+  attachToTransform: 1
+--- !u!65 &1040809623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040809621}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.420044, y: 0.33095264, z: 0.4385376}
+  m_Center: {x: 0.1541748, y: -0.33452368, z: 0.2807312}
+--- !u!4 &1040809624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040809621}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 402.326, y: 9.246, z: 320.669}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1053323588
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,6 +4558,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1602359162}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
+--- !u!1 &1293185350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1293185353}
+  - component: {fileID: 1293185352}
+  - component: {fileID: 1293185351}
+  m_Layer: 0
+  m_Name: InteractBottle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1293185351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293185350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -520193381
+      Data2: 1308223710
+      Data3: -33879126
+      Data4: -226588668
+    Path: event:/Bottle/sfx_tavern_bottle
+  attachToTransform: 1
+--- !u!65 &1293185352
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293185350}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.2682495, y: 0.33095264, z: 0.4385376}
+  m_Center: {x: 0.13412476, y: -0.33452368, z: 0.2807312}
+--- !u!4 &1293185353
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293185350}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 401.397, y: 8.77, z: 318.685}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304384695
 GameObject:
   m_ObjectHideFlags: 0
@@ -4374,28 +4744,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1357206381}
   - component: {fileID: 1357206380}
-  - component: {fileID: 1357206379}
+  - component: {fileID: 1357206382}
   m_Layer: 0
-  m_Name: Interact
+  m_Name: InteractKnife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1357206379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357206378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1bf47592a292644bb2cd64f0b4199ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InteractorSource: {fileID: 0}
-  InteractRange: 0
 --- !u!65 &1357206380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4426,12 +4782,32 @@ Transform:
   m_GameObject: {fileID: 1357206378}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 388.018, y: 7.896156, z: 316.121}
+  m_LocalPosition: {x: 387.8, y: 7.896156, z: 316.121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1357206382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1357206378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -242089909
+      Data2: 1275887070
+      Data3: 1679311284
+      Data4: 1321104297
+    Path: event:/Knife/sfx_tavern_knife
+  attachToTransform: 1
 --- !u!4 &1373490424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4289115941247784, guid: cb181bc6c302bca40929333077286a04, type: 3}
@@ -5386,6 +5762,80 @@ Transform:
   - {fileID: 1225706420}
   m_Father: {fileID: 771838603}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1604672442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1604672445}
+  - component: {fileID: 1604672444}
+  - component: {fileID: 1604672443}
+  m_Layer: 0
+  m_Name: InteractBottle (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1604672443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604672442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -520193381
+      Data2: 1308223710
+      Data3: -33879126
+      Data4: -226588668
+    Path: event:/Bottle/sfx_tavern_bottle
+  attachToTransform: 1
+--- !u!65 &1604672444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604672442}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.29663086, y: 0.33095264, z: 0.4385376}
+  m_Center: {x: -0.20440674, y: -0.33452368, z: 0.2807312}
+--- !u!4 &1604672445
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1604672442}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 401.591, y: 11.942, z: 306.565}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1608616118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5707,6 +6157,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1602359162}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &1635139249
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1635139252}
+  - component: {fileID: 1635139251}
+  - component: {fileID: 1635139250}
+  m_Layer: 0
+  m_Name: InteractBottle (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1635139250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635139249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -520193381
+      Data2: 1308223710
+      Data3: -33879126
+      Data4: -226588668
+    Path: event:/Bottle/sfx_tavern_bottle
+  attachToTransform: 1
+--- !u!65 &1635139251
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635139249}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.29663086, y: 0.33095264, z: 0.4385376}
+  m_Center: {x: -0.20440674, y: -0.33452368, z: 0.2807312}
+--- !u!4 &1635139252
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635139249}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 397.845, y: 11.811, z: 306.439}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1664526945
 GameObject:
   m_ObjectHideFlags: 0
@@ -6179,6 +6703,80 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1710004318}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1710921239
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1710921242}
+  - component: {fileID: 1710921241}
+  - component: {fileID: 1710921240}
+  m_Layer: 0
+  m_Name: InteractBottle (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1710921240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710921239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: -520193381
+      Data2: 1308223710
+      Data3: -33879126
+      Data4: -226588668
+    Path: event:/Bottle/sfx_tavern_bottle
+  attachToTransform: 1
+--- !u!65 &1710921241
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710921239}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.29663086, y: 0.33095264, z: 0.4385376}
+  m_Center: {x: -0.20440674, y: -0.33452368, z: 0.2807312}
+--- !u!4 &1710921242
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710921239}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 386.598, y: 11.806, z: 315.139}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1767169421
 GameObject:
   m_ObjectHideFlags: 0
@@ -7382,28 +7980,14 @@ GameObject:
   m_Component:
   - component: {fileID: 2077935890}
   - component: {fileID: 2077935889}
-  - component: {fileID: 2077935888}
+  - component: {fileID: 2077935891}
   m_Layer: 0
-  m_Name: Interact (1)
+  m_Name: InteractBarrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2077935888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2077935887}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c1bf47592a292644bb2cd64f0b4199ca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InteractorSource: {fileID: 0}
-  InteractRange: 0
 --- !u!65 &2077935889
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7434,12 +8018,32 @@ Transform:
   m_GameObject: {fileID: 2077935887}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 388.817, y: 7.896156, z: 312.72}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 388.817, y: 7.896156, z: 312.07}
+  m_LocalScale: {x: 1.5892, y: 1.5892, z: 1.5892}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2077935891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2077935887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 491d8a050d8e89744ae52be715a63fa8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactSound:
+    Guid:
+      Data1: 421733805
+      Data2: 1329308495
+      Data3: -1583669851
+      Data4: 288930394
+    Path: event:/Barrel/sfx_tavern_barrel
+  attachToTransform: 1
 --- !u!1 &2104964197 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1519495122330548, guid: b6bdc8350ca1cf24f9b7e651e790e08b, type: 3}
@@ -7717,4 +8321,12 @@ SceneRoots:
   - {fileID: 166123581}
   - {fileID: 1010680896}
   - {fileID: 1357206381}
+  - {fileID: 1293185353}
+  - {fileID: 129748989}
+  - {fileID: 1040809624}
+  - {fileID: 1635139252}
+  - {fileID: 1604672445}
+  - {fileID: 1710921242}
   - {fileID: 2077935890}
+  - {fileID: 440103133}
+  - {fileID: 234251135}
