@@ -97,10 +97,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639045337720601568
+  lastModified: 639057383043437304
   FileSizes:
   - Name: Desktop
-    Value: 2238
+    Value: 2348
   Exists: 1
 --- !u!114 &-5411156196365804277
 MonoBehaviour:
@@ -308,10 +308,10 @@ MonoBehaviour:
   Path: Assets/FMODStudio/Lesson1/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639045337720573335
+  lastModified: 639057383043422217
   FileSizes:
   - Name: Desktop
-    Value: 7277824
+    Value: 7329984
   Exists: 1
 --- !u!114 &-720154965119441169
 MonoBehaviour:
@@ -372,13 +372,15 @@ MonoBehaviour:
   - {fileID: -2503913645391191569}
   - {fileID: 7339799996752095605}
   - {fileID: 1899221649600521058}
+  - {fileID: 646120222896406936}
+  - {fileID: 3827511627864197883}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2100474390687094267}
   StringsBanks:
   - {fileID: -5412549212703681705}
   cacheVersion: 131856
-  cacheTime: 639045337720601568
+  cacheTime: 639057383043437304
   SerializableEventsDict:
   - key: event:/Footsteps/sfx_footsteps_surface
     index: 0
@@ -410,6 +412,37 @@ MonoBehaviour:
     index: 13
   - key: event:/Barrel/sfx_tavern_barrel
     index: 14
+  - key: event:/Health
+    index: 15
+  - key: snapshot:/Health
+    index: 16
+--- !u!114 &646120222896406936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Health
+  m_EditorClassIdentifier: 
+  Path: event:/Health
+  Guid:
+    Data1: 1702239169
+    Data2: 1326836285
+    Data3: -315136636
+    Data4: 829598918
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6730
 --- !u!114 &1150132391764324259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -485,6 +518,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &3827511627864197883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Health
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Health
+  Guid:
+    Data1: -320138722
+    Data2: 1298926708
+    Data3: -825398098
+    Data4: 166082359
+  Banks:
+  - {fileID: -2100474390687094267}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &4424793760793974722
 MonoBehaviour:
   m_ObjectHideFlags: 0
